@@ -13,4 +13,18 @@
         app:srcCompat="@drawable/myimage"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="544dp"
+        android:layout_height="421dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginLeft="76dp"
+        android:fontFamily="sans-serif-medium"
+        android:text='"The greatest successes come from having the freedom to fail." - Mark Zuckerberg'
+        android:textColor="#FFFFFF"
+        android:textSize="60dp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="343dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
